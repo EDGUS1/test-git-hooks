@@ -6,7 +6,8 @@
   "scripts": {
     "release": "standard-version",
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "hook": "husky add .husky/pre-commit \"npm test\""
   },
   "repository": {
     "type": "git",
