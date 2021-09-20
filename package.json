@@ -1,0 +1,27 @@
+{
+  "name": "test-git-hooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EDGUS1/test-git-hooks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EDGUS1/test-git-hooks/issues"
+  },
+  "homepage": "https://github.com/EDGUS1/test-git-hooks#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "husky": "^7.0.2",
+    "standard-version": "^9.3.1"
+  }
+}
