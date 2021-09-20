@@ -7,7 +7,8 @@
     "release": "standard-version",
     "test": "jest",
     "prepare": "husky install",
-    "hook": "husky add .husky/pre-commit \"npm test\""
+    "hook": "husky add .husky/commit-msg \"npx --no-install commitlint --edit $1\"",
+    "commitv": "commitlint --edit $1"
   },
   "repository": {
     "type": "git",
