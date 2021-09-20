@@ -25,14 +25,14 @@
     "jest": "^27.2.1",
     "standard-version": "^9.3.1"
   },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E  HUSKY_GIT_PARAMS"
     }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   }
 }
