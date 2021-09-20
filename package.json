@@ -7,8 +7,7 @@
     "release": "standard-version",
     "test": "jest",
     "prepare": "husky install",
-    "hook": "husky add .husky/commit-msg \"npx --no-install commitlint --edit $1\"",
-    "commitv": "commitlint --edit $1"
+    "hook": "husky add .husky/commit-msg \"npx --no-install commitlint --edit $1\""
   },
   "repository": {
     "type": "git",
@@ -27,12 +26,6 @@
     "husky": "^7.0.2",
     "jest": "^27.2.1",
     "standard-version": "^9.3.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run test",
-      "commit-msg": "commitlint -E  HUSKY_GIT_PARAMS"
-    }
   },
   "commitlint": {
     "extends": [
