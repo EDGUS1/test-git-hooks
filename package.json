@@ -7,7 +7,7 @@
     "release": "standard-version",
     "test": "jest",
     "prepare": "husky install",
-    "hook": "husky add .husky/commit-msg \"commitlint -E  HUSKY_GIT_PARAMS\""
+    "hook": "husky add .husky/pre-commit \"npm test\""
   },
   "repository": {
     "type": "git",
