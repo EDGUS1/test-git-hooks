@@ -7,7 +7,7 @@
     "release": "standard-version",
     "test": "jest",
     "prepare": "husky install",
-    "hook": "husky add .husky/commit-msg \"npx --no-install commitlint --edit $1\"",
+    "hook": "husky add .husky/pre-push",
     "format": "prettier --write .",
     "lint": "eslint . --ext ts --ext tsx --ext js"
   },
