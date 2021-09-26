@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/EDGUS1/test-git-hooks/compare/v1.2.0...v1.3.0) (2021-09-26)
+
+
+### Features
+
+* add pre-push ([fe26aa5](https://github.com/EDGUS1/test-git-hooks/commit/fe26aa544c2431ff76ae5522347b2707b64ddc10))
+
+
+### Bug Fixes
+
+* conflicts ([aedccc1](https://github.com/EDGUS1/test-git-hooks/commit/aedccc16efc75328ad2df84abb395057dfae2409))
+
 ## [1.2.0](https://github.com/EDGUS1/test-git-hooks/compare/v1.1.0...v1.2.0) (2021-09-21)
 
 
